@@ -392,6 +392,7 @@ p:last-child{
   margin: 0 0 80px;
   font-family: var(--asterone);
   font-weight: 700;
+  line-height: 1.18;
 }
 .hero-content p {
   margin-bottom: 26px;
