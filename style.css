@@ -1096,14 +1096,18 @@ p:last-child{
 
 /* ---gs-hero--- */
 .gs-hero {
+  padding: 110px 0 0;
   background: #000;
   color: #fff;
 }
 .gs-hero-inner {
-
+  display: flex;
+  align-items: flex-start;
 }
 .gs-hero-content {
-
+  padding-top: 40px;
+  width: 50.1%;
+  flex-shrink: 0;
 }
 .gs-hero-content .h1 {
 
@@ -1112,15 +1116,83 @@ p:last-child{
 
 }
 .gs-hero-content .texts p {
-
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 .gs-hero-content .texts .cheers {
-
+  margin: 28px 0 0 50px;
+  width: 230px;
 }
 .gs-hero-image {
-
+  margin-left: 3%;
+  margin-right: -3%;
 }
-.gs-hero-image img {
-
+.gs-hero-image .image-ss {
+  margin: 0 -28% 0 -68%;
+  width: 236%;
+  max-width: initial;
 }
 /* ---gs-hero---end */
+
+
+
+/* ---lgs-section--- */
+.lgs-section {
+  padding: 100px 0 120px;
+}
+.lgs-section-inner {
+  padding: 0 4.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lgs-img-side {
+  width: 49%;
+}
+.lgs-img-side .img {
+
+}
+
+.lgs-content-side {
+  width: 50%;
+}
+.lgs-title {
+
+}
+.lgs-title h3 {
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin: 0 0 28px;
+  font-family: var(--asterone);
+  font-weight: 400;
+}
+
+.lgs-as-bx {
+  padding: 35px 50px;
+  background: #F5F5F5;
+  width: 100%;
+}
+.lgs-as-bx h4 {
+  font-size: 23px;
+  margin: 0 0 40px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.lgs-bt-cnt {
+  
+}
+.lgs-bt-cnt .h4 {
+  
+}
+.lgs-bt-cnt .time {
+  
+}
+.lgs-bt-cnt .bottom-button {
+  
+}
+/* ---lgs-section---end */
