@@ -147,7 +147,7 @@ p:last-child{
   overflow: hidden;
 }
 @media (max-width: 1599px) and (min-width: 1200px) {
-  .container {
+  .container {  
     max-width: 1140px;
   }
 }
@@ -251,8 +251,10 @@ p:last-child{
   color: var(--theme__color1);
   position: absolute;
   transition: 0.3s;
-  right: 25px;
-  top: 25px;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  line-height: 1;
 }
 .offcanvas-close:hover {
   color: #97A3AE;
@@ -275,7 +277,7 @@ p:last-child{
   min-width: 200px;
   z-index: 5;
   position: relative;
-  background: #d5dce2;
+  background: #fff;
   height: 100%;
   padding: 50px 20px 40px;
   overflow: auto;
@@ -285,19 +287,13 @@ p:last-child{
 .offcanvas-menu .offmenu :-webkit-scrollbar {
   display: none;
 }
-.offcanvas-menu ul li a {
+.mobile-menu li a {
   display: block;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--theme__color1);
   padding: 10px;
-}
-.dropdown-menu-custom ul {
-  background: #fff;
-  padding: 20px 0;
-}
-.dropdown-menu-custom ul li a {
-  color: #97A3AE;
+  font-family: var(--asterone);
 }
 .offcanvas-overlay {
   position: fixed;
