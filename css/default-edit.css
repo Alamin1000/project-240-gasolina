@@ -1,3 +1,22 @@
+/* ---buttons--- */
+.default-button {
+    padding: 8px 35px 10px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 40px;
+    background: var(--theme__color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+.default-button:hover {
+    color: #fff;
+    background: var(--theme__color2);
+}
+/* ---buttons---end */
+
 /* small-tools */
 .underline {
     text-decoration: underline !important;

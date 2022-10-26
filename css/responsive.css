@@ -302,6 +302,50 @@
     .contact-us-section {
         padding: 90px 0 120px;
     }
+
+
+    .gs-hero-content .texts p {
+        font-weight: 400;
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    .gs-hero {
+        padding: 80px 0 0;
+    }
+
+
+    .lgs-section {
+        padding: 70px 0 90px;
+    }
+    .lgs-title h3 {
+        font-size: 27px;
+        margin: 0 0 20px;
+    }
+    .lgs-as-bx h4 {
+        font-size: 18px;
+        margin: 0 0 25px;
+    }
+    .lgs-as-bx {
+        padding: 27px 38px;
+    }
+    .lgs-bt-cnt h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 0.3px;
+        word-spacing: 2px;
+    }
+    .lgs-bt-cnt .time {
+        font-size: 16px;
+        margin: 0 0 25px;
+    }
+    .default-button {
+        padding: 6px 29px 8px;
+        font-size: 20px;
+    }
+    .lgs-bt-cnt {
+        padding: 16px 0 0;
+    }
+
 }
 
 
@@ -377,6 +421,20 @@
     }
 
     .contact-us-section-inner {
+        padding: 0;
+    }
+
+
+    .gs-hero-content {
+        padding-top: 0px;
+    }
+    .gs-hero-content .texts .cheers {
+        margin: 10px 0 0 30px;
+        width: 120px;
+    }
+
+
+    .lgs-section-inner {
         padding: 0;
     }
 }
@@ -485,6 +543,34 @@
     }
     .section-wsg {
         padding: 50px 0 80px;
+    }
+
+
+    .gs-hero-inner {
+        flex-wrap: wrap;
+    }
+    .gs-hero-content {
+        padding: 55px 0;
+        width: 100%;
+    }
+    .gs-hero-image {
+        width: 100%;
+        order: -1;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+    .lgs-section-inner {
+        flex-wrap: wrap;
+    }
+    .lgs-img-side {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 40px;
+    }
+    .lgs-content-side {
+        width: 100%;
     }
 }
 
@@ -648,6 +734,43 @@
         padding: 30px 25px 35px;
         width: 100%;
     }
+
+
+    .gs-hero-image {
+        margin: 0 10%;
+    }
+    .gs-hero {
+        padding: 50px 0 0;
+    }
+    .gs-hero-content {
+        padding: 45px 0;
+    }
+    .lgs-title h3 {
+        font-size: 17px;
+        margin: 0 0 15px;
+    }
+    .lgs-as-bx h4 {
+        font-size: 15px;
+        margin: 0 0 15px;
+    }
+    .lgs-as-bx {
+        padding: 20px 20px;
+    }
+    .lgs-bt-cnt h4 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .lgs-bt-cnt .time {
+        font-size: 13px;
+        margin: 0 0 19px;
+    }
+    .default-button {
+        padding: 4px 21px 6px;
+        font-size: 18px;
+    }
+    .lgs-section {
+        padding: 50px 0 60px;
+    }
 }
 
 
@@ -676,5 +799,13 @@
 
     .contact-cont-box {
         padding: 30px 15px 35px;
+    }
+
+
+    .lgs-title h3 {
+        font-size: 15px;
+    }
+    .lgs-bt-cnt h4 {
+        font-size: 15px;
     }
 }

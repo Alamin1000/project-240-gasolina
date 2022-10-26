@@ -1108,6 +1108,8 @@ p:last-child{
   padding-top: 40px;
   width: 50.1%;
   flex-shrink: 0;
+  position: relative;
+  z-index: 1;
 }
 .gs-hero-content .h1 {
 
@@ -1184,15 +1186,112 @@ p:last-child{
 }
 
 .lgs-bt-cnt {
-  
+  padding: 26px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.lgs-bt-cnt .h4 {
-  
+.lgs-bt-cnt h4 {
+  font-size: 26px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  word-spacing: 3px;
 }
 .lgs-bt-cnt .time {
-  
+  font-size: 19px;
+  margin: 0 0 35px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
 }
 .lgs-bt-cnt .bottom-button {
   
 }
 /* ---lgs-section---end */
+
+
+/* ---how-work-hero--- */
+.how-work-hero {
+  padding: 50px 0 35px;
+  background: var(--theme__color2);
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.how-work-hero-bg-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 800px;
+  z-index: -1;
+}
+.how-work-hero-inner {
+  padding: 0 4.5%;
+  display: flex;
+}
+.how-work-hero-content {
+  padding: 140px 0 0;
+  width: 52%;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.how-work-hero-content .in-text {
+  padding-right: 7%;
+}
+.how-work-hero-content .h1 {
+  margin: 0 0 60px -35px;
+}
+.how-work-hero-content p {
+  font-weight: 400;
+  font-size: 19.8px;
+  margin-bottom: 23px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.how-w-bt-rr-txt {
+  padding: 30px 120px 30px 30px;
+  margin: 85px -100px 0 0;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.how-w-bt-rr-txt::after {
+  content: '';
+  height: 100%;
+  width: 5000px;
+  display: block;
+  background: var(--theme__color1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.how-w-bt-rr-txt .inner-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.how-w-bt-rr-txt .inner-cont p {
+  font-family: var(--asterone);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.how-w-bt-rr-txt .inner-cont .arr-img {
+  margin: 0 0 0 40px;
+  width: 160px;
+}
+
+.how-work-image {
+  margin-right: -5%;
+  position: relative;
+  z-index: 3;
+}
+.how-work-image .img {
+
+}
+/* ---how-work-hero---end */
