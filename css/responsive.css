@@ -271,6 +271,37 @@
     }
 
 
+    .contact-cont-box .h-ttl h3 {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+    .contact-menu li a {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        display: flex;
+        line-height: 1.5;
+    }
+    .contact-menu li a .icon {
+        width: 20px;
+        margin: 6px 18px 0 0;
+    }
+    .contact-menu li {
+        margin-bottom: 13px;
+    }
+    .contact-cont-box .h-ttl {
+        margin: 0 0 35px;
+    }
+    .contact-cont-box {
+        padding: 45px 60px 53px;
+        width: 460px;
+        max-width: 100%;
+    }
+    .contact-us-title {
+        margin: 0 0 40px;
+    }
+    .contact-us-section {
+        padding: 90px 0 120px;
+    }
 }
 
 
@@ -342,6 +373,10 @@
     }
 
     .com-x-section-inner {
+        padding: 0;
+    }
+
+    .contact-us-section-inner {
         padding: 0;
     }
 }
@@ -587,6 +622,32 @@
         margin-left: 0;
         margin-right: var(--mar);
     }
+
+
+    .contact-us-section {
+        padding: 60px 0 60px;
+    }
+    .contact-us-title h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .contact-us-title {
+        margin: 0 0 25px;
+    }
+    .contact-cont-box .h-ttl h3 {
+        font-size: 17px;
+    }
+    .contact-menu li a {
+        font-size: 16px;
+    }
+    .contact-menu li a .icon {
+        width: 17px;
+        margin: 5px 11px 0 0;
+    }
+    .contact-cont-box {
+        padding: 30px 25px 35px;
+        width: 100%;
+    }
 }
 
 
@@ -611,5 +672,9 @@
     }
     .hu-s-t1 h3 {
         font-size: 12px;
+    }
+
+    .contact-cont-box {
+        padding: 30px 15px 35px;
     }
 }
