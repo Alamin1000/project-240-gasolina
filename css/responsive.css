@@ -181,6 +181,96 @@
     }
 
 
+
+    .about-hero-section {
+        padding: 150px 0 74px;
+    }
+    .ttl-clm {
+        padding: 3px 0 0;
+        font-size: 70px;
+    }
+    .ttl-clm .th4 {
+        font-size: 20px;
+        left: 39px;
+    }
+    .about-hero-content .h1 {
+        margin: 0 0 50px -24px;
+    }
+    .about-hero-content p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .about-hero-text-inner {
+        padding: 0 29% 0 0;
+    }
+    .about-hero-content .image {
+        width: 320px;
+        top: -119px;
+        right: 3px;
+    }
+
+
+    .founder-content-inner .text-part h3 {
+        font-size: 26px;
+        margin: 0 0 30px;
+    }
+    .founder-content-inner .text-part .h4 {
+        font-size: 15.2px;
+        margin-bottom: 10px;
+    }
+    .founder-content-inner .ar-img-part {
+        width: 110px;
+        margin-left: 50px;
+    }
+    .founder-content {
+        padding: 0 100px 0 30px;
+    }
+    .founder-section-inner {
+        padding: 0 100px 0 230px;
+        min-height: 330px;
+    }
+    .founder-image {
+        width: 256px;
+    }
+
+
+    .project-net-zero {
+        padding: 0px 0 0;
+    }
+
+    .section-wsg {
+        padding: 70px 0 90px;
+    }
+    .wsg-sec-title {
+        margin: 0 0 70px;
+    }
+    .lk-ul.lk-ul--b li::after {
+        height: 29px;
+        width: 29px;
+    }
+    .lk-ul.lk-ul--b li {
+        font-size: 15px;
+        padding-left: 47px;
+    }
+
+
+
+    .cx-li .icon {
+        --mar: 30px;
+        width: 30px;
+    }
+    .cx-li {
+        font-size: 11px;
+        margin: 0 0 45px;
+    }
+    .com-x-t-column {
+        margin: 60px 0 0;
+    }
+    .com-x-i-column {
+        margin: -40px 0 0;
+    }
+
+
 }
 
 
@@ -220,6 +310,40 @@
 
 
 
+    .about-hero-section-inner {
+        padding: 0 0%;
+    }
+    .ttl-clm {
+        padding: 3px 0 0;
+        font-size: 55px;
+    }
+    .ttl-clm .th4 {
+        font-size: 16px;
+        left: 29px;
+    }
+    .about-hero-content .h1 {
+        margin: 0 0 35px -18px;
+    }
+    .about-hero-section {
+        padding: 90px 0 50px;
+    }
+    .about-hero-content .image {
+        width: 240px;
+        top: -34px;
+        right: 3px;
+    }
+    .founder-section-inner {
+        padding: 0 0px 0 220px;
+        min-height: 270px;
+    }
+
+    .section-wsg-inner {
+        padding: 0;
+    }
+
+    .com-x-section-inner {
+        padding: 0;
+    }
 }
 
 
@@ -300,6 +424,33 @@
     .fb-menu li {
         margin: 0 0px 7px 0;
     }
+
+
+    .about-hero-content .image {
+        width: 240px;
+        top: 46px;
+        right: -60px;
+    }
+
+
+    .founder-content-inner .ar-img-part {
+        display: none;
+    }
+    .founder-content-inner .text-part h3 {
+        font-size: 21px;
+        margin: 0 0 20px;
+    }
+
+    .lk-ul.lk-ul--b li {
+        font-size: 14px;
+        padding-left: 45px;
+    }
+    .wsg-sec-title {
+        margin: 0 0 50px;
+    }
+    .section-wsg {
+        padding: 50px 0 80px;
+    }
 }
 
 
@@ -356,6 +507,85 @@
         margin-top: -20px;
         margin-bottom: -19%;
         order: -1;
+    }
+
+
+    .about-hero-content .h1 .ttl-clm {
+        display: block;
+    }
+    .about-hero-content .h1 {
+        margin: 0 0 20px 0px;
+    }
+    .ttl-clm {
+        font-size: 40px;
+    }
+    .ttl-clm .th4 {
+        font-size: 12px;
+        left: 19px;
+    }
+    .about-hero-section {
+        padding: 40px 0 30px;
+    }
+    .about-hero-content .image {
+        width: 160px;
+        top: 176px;
+        right: -80px;
+    }
+    .about-hero-content p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .about-hero-text-inner {
+        padding: 0 70px 0 0;
+    }
+
+    .founder-image {
+        margin: 30px 0 20px;
+        width: 100%;
+        position: static;
+    }
+    .founder-section-inner {
+        padding: 0 0px 0 0px;
+        min-height: 270px;
+    }
+    .founder-content {
+        padding: 20px 0 30px;
+    }
+
+
+    .wsg-cont-wrapper {
+        --inner-space: 19px;
+        --item: 1;
+    }
+
+    .com-x-content-row {
+        flex-wrap: wrap;
+    }
+    .com-x-t-column {
+        margin: 80px 0 0;
+        width: 100%;
+        flex-grow: 1;
+    }
+    .com-x-i-column {
+        flex-shrink: 0;
+        width: 100%;
+        margin: -55px 0 30px;
+        order: -1;
+    }
+    .com-x-t-column {
+        margin: 0px 0 0;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .cx-li {
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .cx-li .icon {
+        order: -1;
+        margin-left: 0;
+        margin-right: var(--mar);
     }
 }
 

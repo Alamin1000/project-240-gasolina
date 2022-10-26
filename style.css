@@ -599,6 +599,20 @@ p:last-child{
 .lk-ul li:last-child {
   margin-bottom: 0;
 }
+.lk-ul.lk-ul--green li::after {
+  background: url('images/like-ellipse-green.png') no-repeat center center/cover;
+}
+
+.lk-ul.lk-ul--b li {
+  font-size: 17px;
+  padding-left: 61px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.lk-ul.lk-ul--b li::after {
+  height: 39px;
+  width: 39px;
+}
 
 .service-d-bt-content {
   margin: 60px 0 0;
@@ -798,3 +812,220 @@ p:last-child{
 
 }
 /* ---footer-section---end */
+
+
+
+
+/* ---about-hero-section--- */
+.about-hero-section {
+  padding: 180px 0 120px;
+  position: relative;
+  z-index: 2;
+}
+.about-hero-section-inner {
+  padding: 0 4.5%;
+  position: relative;
+  z-index: 2;
+}
+
+.about-hero-content {
+  
+}
+.about-hero-content .text-side {
+
+}
+.about-hero-text-inner {
+  padding: 0 28% 0 0;
+}
+.about-hero-content .h1 {
+  margin: 0 0 70px -40px;
+}
+.about-hero-content p {
+  font-weight: 400;
+  font-size: 19.8px;
+  margin-bottom: 23px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.ttl-clm {
+  padding: 6px 0 0;
+  font-size: 93px;
+  position: relative;
+}
+.ttl-clm .th4 {
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  left: 48px;
+  color: var(--theme__color1);
+}
+
+.about-hero-content .image {
+	width: 440px;
+	position: absolute;
+	top: -140px;
+	right: -55px;
+}
+/* ---about-hero-section---end */
+
+
+/* ---founder-section--- */
+.founder-section {
+  position: relative;
+  background: #191919;
+  color: #fff;
+}
+.founder-section-inner {
+  padding: 0 4.5%;
+  min-height: 420px;
+  padding: 0 0 0 300px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.founder-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 326px;
+}
+.founder-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.founder-content {
+  padding: 0 120px 0 150px;
+}
+.founder-content-inner {
+  display: flex;
+  align-items: center;
+}
+.founder-content-inner .text-part {
+
+}
+.founder-content-inner .text-part h3 {
+  font-size: 35px;
+  margin: 0 0 35px;
+  font-family: var(--asterone);
+  font-weight: 400;
+}
+.founder-content-inner .text-part .h4 {
+  font-weight: 400;
+  font-size: 19.8px;
+  margin-bottom: 23px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.founder-content-inner .ar-img-part {
+	width: 140px;
+	margin-left: 70px;
+	flex-shrink: 0;
+}
+/* ---founder-section---end */
+
+
+/* ---project-net-zero--- */
+.project-net-zero {
+  padding: 30px 0 0;
+}
+.project-net-zero .img {
+  width: 100%;
+}
+/* ---project-net-zero---end */
+
+
+/* ---section-wsg--- */
+.section-wsg {
+  padding: 110px 0 130px;
+}
+.section-wsg-inner {
+  padding: 0 7%;
+}
+.wsg-sec-title {
+  margin: 0 0 90px;
+}
+
+.wsg-cont-wrapper {
+  --inner-space: 8%;
+  --bt-space: var(--inner-space);
+  --item: 2;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--inner-space) * -0.5) calc(var(--bt-space) * -1 );
+  justify-content: center;
+}
+.wsg-cont-column {
+  width: calc((100% / var(--item)) - var(--inner-space));
+  margin: 0  calc(var(--inner-space) * 0.5) var(--bt-space);
+}
+/* ---section-wsg---end */
+
+
+
+/* ---com-x-section--- */
+.com-x-section {
+  padding: 0 0 15px;
+  background: var(--theme__color2);
+  color: #fff;
+}
+.com-x-section-inner {
+  padding: 0 7%;
+}
+
+.com-x-content-row {
+  display: flex;
+}
+.com-x-t-column {
+  margin: 80px 0 0;
+  width: 10%;
+  flex-grow: 1;
+}
+.com-x-i-column {
+  flex-shrink: 0;
+  width: 40%;
+  margin: -55px 0 0;
+}
+.com-x-i-column .img {
+	padding: 0 5%;
+}
+
+.cx-li {
+  font-size: 15px;
+  margin: 0 0 70px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+  font-family: var(--asterone);
+  width: 100%;
+  letter-spacing: 0.9px;
+  font-weight: 400;
+}
+.cx-li.cx-li-m {
+  text-align: left;
+  justify-content: flex-start;
+}
+.cx-li .txt {
+
+}
+.cx-li .icon {
+  --mar: 45px;
+  width: 45px;
+  margin-left: var(--mar);
+  flex-shrink: 0;
+}
+.cx-li.cx-li-m .icon {
+  order: -1;
+  margin-left: 0;
+  margin-right: var(--mar);
+}
+.cx-li .icon img {
+
+}
+/* ---com-x-section---end */
