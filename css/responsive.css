@@ -463,6 +463,83 @@
         margin: 0 0 70px;
     }
 
+
+    .display-hero-content .h1 .ttl-clm {
+        font-size: 60px;
+        padding-top: 7px;
+    }
+    .display-hero-content .h1 .ttl-clm .th4 {
+        font-size: 19px;
+    }
+    .display-hero-content p {
+        font-size: 15.2px;
+    }
+    .display-hero {
+        padding: 140px 0 80px;
+    }
+
+
+    .com-x-section.com-x--display {
+        padding: 115px 0 0px;
+    }
+    .com-x-sec-title .h4.h4-ds {
+        font-size: 15px;
+    }
+    .com-x-sec-title {
+        margin: 0 0 80px;
+    }
+    .com-x-section.com-x--display .cx-li {
+        margin-bottom: 94px;
+    }
+    .com-x-dspl-icons-wrap .item {
+        width: 70px;
+        margin-right: 9px;
+    }
+    .com-x-dspl-icons {
+        bottom: 60px;
+        padding: 10px 190px 10px 0;
+    }
+
+
+    .bng-section {
+        padding: 80px 0;
+    }
+    .bng-cont-side .h4 {
+        font-size: 15px;
+    }
+    .bds-box h4 {
+        font-size: 16px;
+        margin: 0 0 35px;
+    }
+    .bds-box p {
+        font-size: 13.5px;
+    }
+    .bds-box {
+        margin: 30px 0 0;
+        border-radius: 20px;
+        padding: 43px 40px;
+    }
+
+
+    .wei-section {
+        padding: 100px 0;
+    }
+    .wei-sec-title .h3 {
+        font-size: 20px;
+        margin: 45px 0 0;
+    }
+    .wei-sec-title {
+        margin: 0 0 60px;
+    }
+    .wei-section .step-i-item .texts h3 {
+        min-height: 62px;
+    }
+    .wei-section .step-i-item .texts p {
+        font-size: 14px;
+    }
+    .wei-section .step-i-nav {
+        --inner-space: 26px;
+    }
 }
 
 
@@ -567,6 +644,21 @@
 
 
     .tmm-section-inner {
+        padding: 0;
+    }
+
+
+    .display-hero-inner {
+        padding: 0;
+    }
+    .com-x-section.com-x--display .com-x-section-inner {
+        padding: 0;
+    }
+    .com-x-section.com-x--display .cx-li {
+        margin-bottom: 80px;
+    }
+
+    .bng-section-inner {
         padding: 0;
     }
 }
@@ -765,6 +857,18 @@
     .tkq-single {
         width: 100%;
     }
+
+
+    .display-hero-content .h1 .ttl-clm {
+        font-size: 40px;
+        padding-top: 7px;
+    }
+    .display-hero-content .h1 .ttl-clm .th4 {
+        font-size: 15px;
+    }
+    .wei-section .step-i-nav {
+        --item: 3;
+    }
 }
 
 
@@ -901,6 +1005,9 @@
         margin-left: 0;
         margin-right: var(--mar);
     }
+    .cx-li .icon .img {
+        transform: rotate(180deg);
+      }
 
 
     .contact-us-section {
@@ -1007,6 +1114,85 @@
     }
     .tmm-sec-title {
         margin: 0 0 50px;
+    }
+
+
+    .display-hero-content .h1 .ttl-clm {
+        font-size: 35px;
+        padding-top: 7px;
+        display: block;
+        text-align: left;
+        margin: 0 0 14px;
+    }
+    .display-hero-content .h1 .ttl-clm .th4 {
+        font-size: 12px;
+    }
+    .display-hero {
+        padding: 50px 0 30px;
+    }
+
+    .com-x-sec-title {
+        margin: 0 0 40px;
+    }
+    .com-x-section.com-x--display {
+        padding: 60px 0 0px;
+    }
+    .com-x-i-column-dspl {
+        margin: 0px 0 45px;
+        width: 100%;
+        padding: 0 20%;
+        order: -1;
+    }
+    .com-x-section.com-x--display .cx-li {
+        margin-bottom: 40px;
+    }
+    .com-x-dspl-icons {
+        position: relative;
+        bottom: 0;
+    }
+    .com-x-dspl-icons-wrap .item {
+        width: 60px;
+        margin-right: 7px;
+    }
+
+
+    .bng-cont-row {
+        flex-wrap: wrap;
+    }
+    .bng-section {
+        padding: 50px 0;
+    }
+    .bng-cont-side {
+        width: 100%;
+        margin-right: 0;
+    }
+    .bng-screen-side {
+        width: 100%;
+        margin: 40px 0 0;
+    }
+    .bds-box {
+        margin: 25px 0 0;
+        border-radius: 20px;
+        padding: 25px 20px;
+    }
+    .bds-box h4 {
+        margin: 0 0 25px;
+    }
+
+
+    .wei-section {
+        padding: 60px 0;
+    }
+    .wei-sec-title .sec-cont-blk-inner {
+        padding: 0;
+    }
+    .wei-sec-title .h3 {
+        font-size: 15px;
+        margin: 30px 0 0;
+    }
+    .wei-section .step-i-nav {
+        --item: 1;
+        --inner-space: 30px;
     }
 }
 
